@@ -9,8 +9,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="cover_proposalTA_5111100086_files/filelist.xml">
-<link rel=Edit-Time-Data href="cover_proposalTA_5111100086_files/editdata.mso">
+<link rel=File-List href="cover_files/filelist.xml">
+<link rel=Edit-Time-Data href="cover_files/editdata.mso">
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -22,28 +22,28 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>shiinoandra</o:Author>
   <o:LastAuthor>shiinoandra</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>5</o:TotalTime>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>6</o:TotalTime>
   <o:Created>2015-03-19T09:37:00Z</o:Created>
-  <o:LastSaved>2015-03-19T09:42:00Z</o:LastSaved>
-  <o:Pages>4</o:Pages>
+  <o:LastSaved>2015-03-23T02:57:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
   <o:Words>222</o:Words>
-  <o:Characters>1270</o:Characters>
+  <o:Characters>1271</o:Characters>
   <o:Lines>10</o:Lines>
   <o:Paragraphs>2</o:Paragraphs>
-  <o:CharactersWithSpaces>1490</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>1491</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=themeData href="cover_proposalTA_5111100086_files/themedata.thmx">
-<link rel=colorSchemeMapping
-href="cover_proposalTA_5111100086_files/colorschememapping.xml">
+<link rel=themeData href="cover_files/themedata.thmx">
+<link rel=colorSchemeMapping href="cover_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
+  <w:Zoom>70</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -60,6 +60,7 @@ href="cover_proposalTA_5111100086_files/colorschememapping.xml">
    <w:BreakWrappedTables/>
    <w:SplitPgBreakAndParaMark/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -649,23 +650,24 @@ href="cover_proposalTA_5111100086_files/colorschememapping.xml">
  @font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;
-	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-alt:"MS Mincho";
 	mso-font-charset:128;
-	mso-generic-font-family:modern;
+	mso-generic-font-family:roman;
 	mso-font-pitch:fixed;
 	mso-font-signature:-536870145 1791491579 18 0 131231 0;}
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
+	mso-font-charset:1;
 	mso-generic-font-family:roman;
+	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+	mso-font-signature:0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@MS Mincho";
+	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;
 	mso-font-charset:128;
-	mso-generic-font-family:modern;
+	mso-generic-font-family:roman;
 	mso-font-pitch:fixed;
 	mso-font-signature:-536870145 1791491579 18 0 131231 0;}
  /* Style Definitions */
@@ -734,7 +736,7 @@ div.WordSection1
 <table class=MsoNormalTable border=0 cellpadding=0 align=left width=600
  style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-table-lspace:
  2.25pt;mso-table-rspace:2.25pt;mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:
- column;mso-table-left:left'>
+ column;mso-table-left:left;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
   <td style='padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal style='mso-element:frame;mso-element-frame-hspace:2.25pt;
@@ -799,7 +801,7 @@ div.WordSection1
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-height-rule:exactly'><span style='font-size:36.0pt;mso-fareast-font-family:
   "Times New Roman"'>Proposal <span class=SpellE>Tugas</span> <span
-  class=SpellE>Akhir</span></span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+  class=SpellE>Akhir</span><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -978,7 +980,7 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
 <table class=MsoNormalTable border=0 cellpadding=0 align=left width=600
  style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-table-lspace:
  2.25pt;mso-table-rspace:2.25pt;mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:
- column;mso-table-left:left'>
+ column;mso-table-left:left;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
   <td colspan=2 style='padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
@@ -1313,9 +1315,8 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
   mso-element-frame-hspace:2.25pt;mso-element-wrap:around;mso-element-anchor-vertical:
   paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
-  class=GramE><span style='mso-fareast-font-family:"Times New Roman"'>NIP
-  ........................................</span></span><span style='mso-fareast-font-family:
-  "Times New Roman"'><o:p></o:p></span></p>
+  class=GramE><span style='mso-fareast-font-family:"Times New Roman"'>NIP ........................................</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
   </td>
   <td style='padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
@@ -1334,7 +1335,7 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
 <table class=MsoNormalTable border=0 cellpadding=0 align=left width=600
  style='width:6.25in;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-table-lspace:
  2.25pt;mso-table-rspace:2.25pt;mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:
- column;mso-table-left:left'>
+ column;mso-table-left:left;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
   <td colspan=2 style='padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
@@ -1488,11 +1489,10 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
   paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'><span
   style='font-size:24.0pt;mso-fareast-font-family:"Times New Roman"'>Reversible
   Multi-Layer Steganography <span class=SpellE>pada</span> Audio <span
-  class=SpellE>Menggunakan</span> <span class=SpellE>Metode</span> Reduced
-  Difference Expansion</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+  class=SpellE>Menggunakan</span> <span class=SpellE>Metode</span> Reduced Difference
+  Expansion</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
   </td>
  </tr>
- </size>
  <tr style='mso-yfti-irow:4'>
   <td colspan=2 style='padding:.75pt .75pt .75pt .75pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
@@ -1502,7 +1502,6 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
   style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
   </td>
  </tr>
- </size>
  <tr style='mso-yfti-irow:5;height:52.5pt'>
   <td style='padding:.75pt .75pt .75pt .75pt;height:52.5pt'>
   <p class=MsoNormal align=center style='text-align:center;mso-element:frame;
@@ -1619,7 +1618,8 @@ display:none;mso-hide:all'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal style='mso-element:frame;mso-element-frame-hspace:2.25pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-height-rule:exactly'><span style='mso-fareast-font-family:"Times New Roman"'><span
-  style='mso-spacerun:yes'>                      </span>NIP. <o:p></o:p></span></p>
+  style='mso-spacerun:yes'>   </span><span
+  style='mso-spacerun:yes'>                   </span>NIP. <o:p></o:p></span></p>
   </td>
  </tr>
 </table>
