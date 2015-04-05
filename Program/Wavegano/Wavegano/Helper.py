@@ -56,12 +56,7 @@ op.operation.inv_RDE_Array(intM1,locMap1,reducedMap)
 #bigits = op.operation.makeBigit(bin)
 #print(bigits[10])
 #print(bigits.shape)
-#pl.figure(1)
-#pl.plot(w.samples)
-#pl.ylabel = "Amplitudo"
-#pl.xlabel = "Waktu"
-#pl.title = "coba.wav"
-#pl.show()
+
 
 
 

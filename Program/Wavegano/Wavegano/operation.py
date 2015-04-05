@@ -1,6 +1,8 @@
 import numpy
 import math
 import binascii
+import  matplotlib.pyplot as pl
+
 
 class operation:
     @staticmethod 
@@ -45,7 +47,6 @@ class operation:
                     capacity1+=1
                     overflow_check = operation.RDE(intM1[count],intM1[count+1],1)
                     if(overflow_check[0] == -1):
-                        print(overflow_check)
                         capacity1-=1
                 count+=2
 
@@ -56,7 +57,6 @@ class operation:
                     capacity2+=1
                     overflow_check = operation.RDE(intM2[count],intM2[count+1],1)
                     if(overflow_check[0] == -1):
-                        print(overflow_check)
                         capacity2-=1
                 count+=2
             except:
@@ -149,16 +149,25 @@ class operation:
         M2 = [sample[8:] for sample in WaveArray]
         intM1 = [int(operation.binaryArraytoString(sample),2) for sample in M1]
         intM2 = [int(operation.binaryArraytoString(sample),2) for sample in M2]
+        print("segmen awal:")
         print(intM1)
+        pl.figure(1)
+        pl.plot(intM1)
+        pl.ylabel = "Amplitudo"
+        pl.xlabel = "Waktu"
+        pl.title = "array test encoded"
+        pl.show()
         #print(intM2)
         check = operation.checkCapacity(WaveArray,MessageArray,threshold)
+        print("kapasitas penyimpanan :")
+        print(check)
         if(check[2] == 1):
             S1 = MessageArray[:check[0]]
             S2 = MessageArray[check[0]:]
         else:
             print("kapasitas tidak cukup")
+        print("segmen secret yang akan di encode:")
         print(S1)
-        print(check)
         countM = 0
         for i in range(len(S1)):
             #print(countM)
@@ -202,7 +211,15 @@ class operation:
                     break
             countM+=2
         locMap = locMap1.append(locMap2)
+        print("segmen setelah encode")
         print(intM1)
+        pl.figure(2)
+        pl.plot(intM1)
+        pl.ylabel = "Amplitudo"
+        pl.xlabel = "Waktu"
+        pl.title = "array test encoded"
+        pl.show()
+        print("location map:")
         print(locMap1)
         return (intM1,intM2,reducedMap,locMap1,locMap2)
 
@@ -230,7 +247,7 @@ class operation:
                 countMap+=1
             except:
                 continue
-
+        print("hasil decode:")
         print (decoded_M)
         print (decoded_S)
 
