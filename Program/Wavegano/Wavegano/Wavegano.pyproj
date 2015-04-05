@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>db6194f0-2f61-4db1-88b7-a5685b9f5e23</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Wavegano.py</StartupFile>
+    <StartupFile>Helper.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
