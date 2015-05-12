@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>db6194f0-2f61-4db1-88b7-a5685b9f5e23</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Helper.py</StartupFile>
+    <StartupFile>GRDEI.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GRDEI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Helper.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="operation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GDE.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RDE.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="testbed.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Wave.py">

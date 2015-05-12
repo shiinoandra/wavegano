@@ -17,8 +17,8 @@ class Wave:
                "Bitrate :"  + str(self.bitrate) + "\n" +
                "Shape : " + str(self.shape) + "\n" +
                "Type:" + str(self.type) + "\n" +
-               "MIN : " + str(self.min()) + "\n" +
-               "MAX : " + str(self.max()) + "\n")
+               "MIN : " + str(self.samples.min()) + "\n" +
+               "MAX : " + str(self.samples.max()) + "\n")
     
 
 
