@@ -25,15 +25,19 @@ class operation:
 
     @staticmethod
     def stringToBinary(msg):
-        message = bin(int(binascii.hexlify(msg),16))
+        message = bin(int(msg.encode('hex'),16))
         binaries = operation.binaryStringtoArray(message[2:])
         return binaries
 
     @staticmethod
     def revStringToBinary(binaries):
         binstr = operation.binaryArraytoString(binaries)
-        _hex = hex(int(binstr,2))[2:-1]
-        message = binascii.unhexlify(_hex)
+        _hex = hex(int(binstr,2))
+        if _hex[-1:] == 'L' :
+            _hex = _hex[2:-1]
+        else:
+            _hex = _hex[2:]
+        message = _hex.decode("hex")
         return message
 
     @staticmethod
