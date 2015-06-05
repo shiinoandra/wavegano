@@ -185,7 +185,6 @@ class operation:
 #operation.intel_partition(b,3)
 
 
-
                 
 
 

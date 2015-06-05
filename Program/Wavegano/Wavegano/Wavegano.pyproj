@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>db6194f0-2f61-4db1-88b7-a5685b9f5e23</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GRDEI.py</StartupFile>
+    <StartupFile>genetic.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="genetic.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GRDEI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Helper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="kromosom.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="operation.py">

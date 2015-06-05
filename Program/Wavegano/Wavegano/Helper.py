@@ -5,6 +5,7 @@ from scipy.io.wavfile import write
 import  matplotlib.pyplot as pl
 import operation as op
 import binascii
+import math
 
 class WavIO:
     @staticmethod
@@ -39,6 +40,24 @@ class payloadIO:
         f = open(path,mode='w')
         f.write(message)
         f.close()
+
+class analytics:
+    @staticmethod
+    def calculatePSNR(original_wave,corrupted_wave):
+        samplelen = len(original_wave)
+        sum = 0
+        for i in range(samplelen):
+            sum+=(math.pow((original_wave[i] - corrupted_wave[i]),2))
+        MSE = float(sum)/float(samplelen)
+        if(MSE == 0):
+            return -1
+        else:
+            max =65535 #16bit
+            PSNR = 10*(math.log10((math.pow(max,2)/MSE)))
+            return PSNR
+
+
+        
 
 
 

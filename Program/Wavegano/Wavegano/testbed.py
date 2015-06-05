@@ -1,10 +1,11 @@
 import operation  as o
 import numpy
 import Helper
-#import GDE
-#import GRDEI
-#import RDE
+import GDE
+import GRDEI
+import RDE
 import binascii
+import operation as op
 
 numpy.set_printoptions(threshold=numpy.nan)
 
@@ -198,3 +199,38 @@ numpy.set_printoptions(threshold=numpy.nan)
 #    f.write("------------------------------------")
 #    f.write("\n")
 #f.close()
+
+#angka1 = 100
+#angka2 = 101
+#file = open("hasil_RDE.txt",mode = 'w')
+
+#for i in range(150):
+#    (hasil1,hasil2,flag) = RDE.RDE(angka1,angka2,1)
+#    angka2+=1
+#    write_String = str(angka1)+","+str(angka2)+","+str(hasil1)+","+str(hasil2)+"\n"
+#    file.write(write_String)
+#file.close()
+
+
+segment_size =2
+threshold = 10
+
+medium = Helper.WavIO.open("D:\\coba16.wav")
+
+samples = op.operation.numToBinary(medium.samples)
+(M1,M2,Partisi) = op.operation.intel_partition(samples,10)
+intM1 = op.operation.binaryTonum(M1)
+intM2 = op.operation.binaryTonum(M2)
+
+for i in range(5):
+    file = open("perbandingan_kapasitas_segmen_thres"+str(threshold)+".csv",mode='w')
+    for i in range(20):
+        kapasitas_M1 = GDE.checkCapacity(intM1,segment_size,threshold)
+        kapasitas_M2 = GDE.checkCapacity(intM2,segment_size,threshold)
+        capacity = kapasitas_M1+kapasitas_M2
+        string_write = str(segment_size)+","+str(threshold) +","+str(capacity)+"\n"
+        file.write(string_write)
+        segment_size+=2
+    file.close()
+    segment_size=2
+    threshold+=10
